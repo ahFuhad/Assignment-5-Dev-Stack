@@ -4,7 +4,7 @@ Dev Stack Builder is a responsive web application that helps developers explore 
 
 ## 🌐 Live Website
 
-[Live Site](#)
+[https://assignment-5-dev-stack-eight.vercel.app/](#)
 
 ## 📂 GitHub Repository
 
@@ -60,7 +60,7 @@ JSX is a syntax that lets us write HTML-like code inside JavaScript. React uses 
 
 I used it to store the technologies selected by the user in the **Your Stack** section.
 
-```tsx
+``tsx
 const [stack, setStack] = useState<Technology[]>([]);
 
 ---
