@@ -75,7 +75,7 @@ function TechnologySection() {
       <div className="mb-8">
         <h2 className="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
           Explore the{" "}
-          <span className="bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
             Technologies
           </span>
         </h2>
@@ -94,7 +94,7 @@ function TechnologySection() {
               {[1, 2, 3, 4, 5, 6].map((item) => (
                 <div
                   key={item}
-                  className="h-75 animate-pulse rounded-2xl border border-slate-100 bg-slate-50"
+                  className="h-75 rounded-2xl border border-slate-100 bg-slate-50"
                 />
               ))}
             </div>
@@ -103,7 +103,7 @@ function TechnologySection() {
               {technologies.map((technology) => (
                 <div
                   key={technology.id}
-                  className="flex min-h-75 flex-col rounded-2xl border border-slate-100 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+                  className="flex min-h-75 flex-col rounded-2xl border border-slate-100 bg-white p-5"
                 >
                   {/* Top */}
                   <div className="flex items-start justify-between">
@@ -123,7 +123,7 @@ function TechnologySection() {
                     {technology.name}
                   </h3>
 
-                  {/* Description */}
+                  {/* Paragraph */}
                   <p className="mt-2 flex-1 text-sm leading-6 text-slate-400">
                     {technology.description}
                   </p>
@@ -139,7 +139,7 @@ function TechnologySection() {
                     </span>
 
                     <span className="ml-auto text-sm font-medium text-slate-600">
-                      ⭐ {technology.rating}
+                        {technology.rating}
                     </span>
                   </div>
 
@@ -228,7 +228,7 @@ function TechnologySection() {
                     className="text-lg leading-none text-slate-300 transition hover:text-red-500"
                     aria-label={`Remove ${technology.name}`}
                   >
-                    ×
+                    x
                   </button>
                 </div>
               ))}

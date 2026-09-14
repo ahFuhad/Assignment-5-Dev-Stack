@@ -91,7 +91,7 @@ function Footer() {
                 </div>
             </div>
             {/* Lower Footer */}
-            <div className="mx-auto flex max-w-356.25 flex-col gap-4 border-t border-slate-100 px-6 py-6   md:flex-row md:items-center md:justify-between md:px-24">
+            <div className="mx-auto flex max-w-356.25 flex-col gap-4 px-6 py-6 md:flex-row md:items-center md:justify-between md:px-24">
                 <p className="text-xs text-slate-400">
                     © 2026 Dev Stack. All rights reserved.
                 </p>
