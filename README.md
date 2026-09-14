@@ -4,8 +4,6 @@ Dev Stack Builder is a responsive web application that helps developers explore 
 
 ## 🌐 Live Website
 
-## 🌐 Live Website
-
 [Live Site](https://assignment-5-dev-stack-eight.vercel.app/)
 
 ## 📂 GitHub Repository
